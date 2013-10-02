@@ -8,9 +8,11 @@ It's not great at all to have a separate UIImageView to support a no-repeat back
 
 How about this?
 
-```VABackgroundedView *view = [[VABackgroundedView alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+```
+VABackgroundedView *view = [[VABackgroundedView alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
 view.backgroundImage = [UIImage imageNamed: @"background"];
-view.backgroundImagePosition = @"bottom right";```
+view.backgroundImagePosition = @"bottom right";
+```
 
 Even better, you can do this in Interface Builder directly:
 
